@@ -4,8 +4,9 @@ public class BaseballRunner
 
 		public static void main(String[] args)
 			{
-				// TODO Auto-generated method stub
-
+				BatterData.loadData();
+				BatterData.announceLineup();
+				BatterInning.playInning();
 			}
 
 	}
